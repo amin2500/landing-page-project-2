@@ -72,10 +72,16 @@
 
 /* Prodcut Section */
 
-#product {
-  text-align: center;
-  background-color: #f6f6f6;
+#products {
+  background-color: #f4f4f4;
   margin-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
 }
 
 .product__title {
@@ -114,6 +120,8 @@
 .product__card {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 50px;
+  margin-top: 36px;
 }
 
 .card__icon {
@@ -127,3 +135,74 @@
   font-size: 35px;
   border-radius: 9999px;
 }
+
+/* Features Section */
+
+#features {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.feature__describtion {
+  text-align: center;
+}
+
+.features__title {
+  font-size: 32px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+
+.features__para {
+  max-width: 600px;
+  margin: auto;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.feature-image__wrapper {
+  display: flex;
+  margin-top: 50px;
+  padding: 16px 50px;
+  gap: 35px;
+}
+
+.feature-describtion__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  gap: 7px;
+}
+
+.feature__image {
+  width: 50%;
+}
+
+.feature-image__titel {
+  font-size: 20px;
+}
+
+.feature-image__para {
+  max-width: 400px;
+  font-size: 13px;
+}
+
+.feature-image__link {
+  text-decoration: none;
+  color: #199cdb;
+  font-size: 13px;
+  font-weight: 700;
+  padding-bottom: 2px;
+  transition: 175ms;
+  border-bottom: 1px solid transparent;
+}
+
+.feature-image__link:hover {
+  border-color: #199cdb;
+}
+
+/* Reviews Section */
+
