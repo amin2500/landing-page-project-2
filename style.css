@@ -208,6 +208,7 @@
 
 #reviews {
   background-color: #f6f6f6;
+  padding-bottom: 100px;
 }
 
 .review__container {
@@ -267,7 +268,6 @@
 }
 
 .reviews__para {
-  
 }
 
 .reviews__img {
@@ -291,3 +291,132 @@
 .reviews__occupation {
   font-size: 12px;
 }
+
+/* Pricing Section  */
+
+#pricing {
+}
+
+.pricing__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.pricing__title {
+  font-size: 32px;
+  margin-top: 35px;
+}
+
+.pricing__para {
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.plan {
+  width: 100%;
+  height: 510px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  padding: 32px 12px;
+}
+
+.pricing__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.plan__title {
+  font-size: 32px;
+  color: #199cdb;
+}
+
+.plan__icon {
+  font-size: 48px;
+  color: #199cdb;
+}
+
+.plan__price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #199cdb;
+}
+
+.plan__feature {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  gap: 16px;
+}
+
+.free__features {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.plan__button {
+  margin-top: 32px;
+  color: white;
+  background-color: #199cdb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 13px 20px;
+  font-size: 16px;
+}
+
+/* Footer Section */
+
+.footer {
+  background-color: #199cdb;
+  height: 64px;
+  margin-top: 75px;
+}
+
+.footer__row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__logo {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer__links {
+  text-decoration: none;
+  color: white;
+  margin: 0 8px;
+  font-weight: 500;
+}
+
+
+/* Tablets */
+
+ @media (max-width:448px) {
+    .nav__links:not(:last-child) {
+          display: none;
+     }
+ }
+
+ @media (max-width:768px){
+    .product__icon__wrapper{
+         width: 50%;
+      
+    }
+ }
